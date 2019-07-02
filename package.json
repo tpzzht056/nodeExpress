@@ -9,7 +9,7 @@
     "build": "gulp",
     "lint": "eslint src --ext .ts",
     "auto-build": "gulp watch",
-    "install": "npm install --production"
+    "inst": "npm install --production"
   },
   "author": "pochiko",
   "license": "ISC",
