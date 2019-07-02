@@ -2,11 +2,11 @@ import mysql from 'mysql';
 import redis from 'redis';
 
 export let mysqlPoolOptions: mysql.PoolConfig = {
-    host: '139.224.82.202',
+    host: 'a',
     port: 3306,
     user: 'root',
-    password: 'yuecai@2019',
-    database: 'yuecai',
+    password: 'n',
+    database: 'db',
     connectTimeout: 10,
     connectionLimit: 200
 };
@@ -14,7 +14,7 @@ export let mysqlPoolOptions: mysql.PoolConfig = {
 export let redisOptions: redis.ClientOpts = {
     port: 6379,
     host: 'localhost',
-    password: 'heloo2015',
-    db: 8
+    password: 'dsfsdf',
+    db: 10
 };
 
